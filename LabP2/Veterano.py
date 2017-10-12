@@ -1,6 +1,6 @@
-from Usuario import Usuario
+from UsuarioTemplate import UsuarioTemplate
 
-classcd  Veterano(Usuario):
+class Veterano(UsuarioTemplate):
 
     def desconto(self, jogo):
         return jogo.preco -(jogo.preco*0.2)
